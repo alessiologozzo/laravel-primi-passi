@@ -1,0 +1,30 @@
+@import '~bootstrap/scss/bootstrap';
+
+body{
+    background-color: rgb(53, 50, 50);
+    color: white;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+ul{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-style: italic;
+
+    &:hover{
+        color: rgb(255, 245, 156);
+    }
+}
